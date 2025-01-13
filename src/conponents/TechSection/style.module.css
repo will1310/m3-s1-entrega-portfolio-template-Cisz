@@ -1,0 +1,18 @@
+.techSection{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.25rem;
+}
+
+.h2{
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-3);
+    margin-bottom: 1.5625rem;
+}
+
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}

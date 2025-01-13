@@ -1,0 +1,50 @@
+.li{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 13.7rem;
+    justify-content: center;
+    border: .0625rem solid var(--color-grey-3);
+    border-radius: 1.5625rem;
+    padding: 1rem 1rem 1.25rem 2.0625rem;
+}
+
+.projectCard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.125rem;
+}
+
+.h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-4);
+    font-weight: var(--font-height-1);
+    line-height: var(--line-height-5);
+}
+
+.img{
+    width: 2.313rem;
+    height: 2.249rem;
+}
+
+.p {
+    font-size: var(--font-size-5);
+    font-weight: var(--font-height-4);
+    line-height: var(--line-height-4);
+    margin-bottom: 2rem;
+}
+
+.a {
+    font-size: var(--font-size-5);
+    font-weight: var(--font-height-1);
+    line-height: var(--line-height-4);
+    color: var(--color-brand-1);
+    text-decoration: none;
+}
+
+@media (min-width: 700px) {
+    .li {
+        flex:1 0 20rem;
+    }
+}

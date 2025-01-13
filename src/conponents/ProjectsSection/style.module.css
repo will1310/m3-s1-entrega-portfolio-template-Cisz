@@ -1,0 +1,16 @@
+.projectsSection {
+    margin-bottom: 2.6875rem;
+}
+
+.h2 {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2);
+    margin-bottom: 1.8125rem;
+}
+
+.ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}

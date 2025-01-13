@@ -1,0 +1,61 @@
+.bannerSection{
+    display: flex;
+    margin-bottom: 6.8125rem;
+}
+
+.usser {
+    font-size: var(--font-size-6);
+    font-weight: var(--font-height-4);
+    line-height: var(--line-height-6);
+    color: var(--color-brand-1);
+    margin-bottom: 0.5625rem;
+}
+
+.h1{
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+.p{
+    font-size: var(--font-size-6);
+    font-weight: var(--font-height-4);
+    line-height: var(--line-height-6);
+    margin-bottom: 2.3125rem;
+}
+
+.bannerButton{
+    font-size: var(--font-size-7);
+    font-weight: var(--font-height-3);
+    line-height: var(--line-height-7);
+    padding: 0.6875rem 1.875rem;
+    border-radius: 0.75rem;
+    border: nome;
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-3);
+}
+
+.bannerButton:hover {
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-1);
+}
+
+.img{
+    margin-top: 3.9375rem;
+}
+
+@media (min-width: 700px) {
+    .bannerSection {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .h1 {
+        margin: 0rem;
+        margin-bottom: 1.4375rem;
+    }
+
+    .img {
+        margin: 0rem;
+    }
+}

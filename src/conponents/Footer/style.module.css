@@ -1,0 +1,43 @@
+.footer{
+    padding: 3rem 3rem 3.1875rem 3.0625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.0625rem solid var(--color-grey-3);
+    border-bottom: 0.0625rem solid var(--color-grey-3);
+}
+
+.h2{
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2);
+    margin-bottom: 1.2694rem;
+    text-align: center;
+}
+
+.containerImgs{
+    display: flex;
+    gap: 0.9rem;
+    margin-bottom: 2.2731rem;
+}
+
+.p{
+    font-size: var(--font-size-5);
+    font-weight: var(--font-height-4);
+    line-height: var(--line-height-4);
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .containerImgs {
+        margin: 0;
+    }
+}
